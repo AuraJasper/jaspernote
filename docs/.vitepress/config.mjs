@@ -9,7 +9,7 @@ export default defineConfig({
   description: "jasper learn note",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
-    logo: "/logo.png",
+    logo: "/public/logo.png",
     search: {
       provider: "local",
     },
