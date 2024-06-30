@@ -1,61 +1,70 @@
 {
-  "hash": "c8b42003",
+  "hash": "ac06cede",
   "configHash": "7f3e4c7d",
-  "lockfileHash": "b89a7742",
-  "browserHash": "ff952bb2",
+  "lockfileHash": "56907f35",
+  "browserHash": "acc5e545",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "10f3cef5",
+      "fileHash": "d505449e",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "6792a1a4",
+      "fileHash": "1f9abdad",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "a7660e02",
+      "fileHash": "b3c33f93",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "e54bd6dc",
+      "fileHash": "6a0677a7",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "5cbec0c2",
+      "fileHash": "a28be9e8",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "ac83f2ad",
+      "fileHash": "67bd5d13",
       "needsInterop": false
     },
     "vitepress-plugin-comment-with-giscus": {
       "src": "../../../../node_modules/vitepress-plugin-comment-with-giscus/lib/giscus.js",
       "file": "vitepress-plugin-comment-with-giscus.js",
-      "fileHash": "b752bc06",
+      "fileHash": "30243e52",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "40847df5",
       "needsInterop": false
     }
   },
   "chunks": {
+    "giscus-aTimukGI-6KU2TF25": {
+      "file": "giscus-aTimukGI-6KU2TF25.js"
+    },
     "chunk-K5OBGKJL": {
       "file": "chunk-K5OBGKJL.js"
     },
     "chunk-NRR3UUIY": {
       "file": "chunk-NRR3UUIY.js"
     },
-    "giscus-aTimukGI-KUYRML7I": {
-      "file": "giscus-aTimukGI-KUYRML7I.js"
+    "chunk-PZ5AY32C": {
+      "file": "chunk-PZ5AY32C.js"
     }
   }
 }

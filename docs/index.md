@@ -26,6 +26,19 @@ features:
     details: 为Java开发者准备的面试题和解答，助你在面试中脱颖而出。
 ---
 
+--- 
+
+<div class="latest-md-files">
+  <div class="card">
+    <h1>最新发布的文章</h1>
+    <ul>
+      <!-- <li v-for="file in files" :key="file">
+        <a :href="`/${file}`">{{ file }}</a>
+      </li> -->
+    </ul>
+  </div>
+</div>
+
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
@@ -46,9 +59,33 @@ features:
     --vp-home-hero-image-filter: blur(68px);
   }
 }
+.latest-md-files {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
-.vp-home .hero-image img {
-  width: 50px; /* 设置图片宽度 */
-  height: auto; /* 保持纵横比 */
+.card {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 80%; /* 设置卡片最大宽度 */
+  width: 1000px
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
 }
 </style>
