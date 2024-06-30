@@ -89,12 +89,15 @@ enum Color {
 ```
 
 ## EnumMap
-
+```java
 public class EnumMap<K extends Enum<K>,V>
 
 extends AbstractMap<K,V>
 
 implements Serializable, Cloneable
+
+```
+
 
 ### class diagram
 
@@ -105,7 +108,7 @@ implements Serializable, Cloneable
 
 ### Example
 
-```
+``` java
 public class EnumMapExample {
     public enum Color {
         RED,
@@ -153,9 +156,10 @@ public interface BiFunction<T, U, R>
 ```
 
 ## EnumSet
-
+```java
 public abstract class EnumSet<E extends Enum<E>>
 
 extends AbstractSet<E>
 
 implements Cloneable, Serializable
+```

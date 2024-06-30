@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "jaspernote",
   lastUpdated: true,
+  ignoreDeadLinks: true,
   description: "jasper learn note",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
@@ -42,7 +43,7 @@ export default defineConfig({
         text: "对象存储",
         items: [
           { text: "minio", link: "/outline/minio.md" },
-          { text: "阿里云", link: "/item-5" },
+          // { text: "阿里云", link: "/item-5" },
         ],
       },
       { text: "数据结构", link: "/outline/dataStructure.md" },

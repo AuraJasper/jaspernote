@@ -3,9 +3,10 @@
 layout: home
 
 hero:
-  name: "jaspernote"
+  name: "jaspernote" 
   actions:
-    - theme: bra础
+    - theme: alt
+      text: java核心基础
       link: /outline/java核心基础.md
     - theme: alt
       text: view on github
@@ -19,4 +20,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
