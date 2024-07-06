@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "sass": "^1.77.6",
     "vitepress": "^1.2.3"
   },
   "scripts": {
@@ -13,6 +14,7 @@
     "axios": "^1.7.2",
     "child_process": "^1.0.2",
     "simple-git": "^3.25.0",
+    "slugify": "^1.6.6",
     "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }

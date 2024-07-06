@@ -1,6 +1,11 @@
 [
-  "docs/index.md",
+  "docs/java/framework/springboot/freemarker.md",
+  "docs/java/framework/springboot/sqlite.md",
+  "docs/outline/javaFramework.md",
+  "docs/outline/java_related_website.md",
+  "docs/outline/navigation/nav.md",
   "README.md",
+  "docs/index.md",
   "docs/api-examples.md",
   "docs/markdown-examples.md"
 ]
