@@ -16,7 +16,7 @@ export default defineConfig({
     sidebar,
     socialLinks,
     returnToTopLabel: '返回顶部',
-    logo: "/public/logo.png",
+    logo: "/logo.png",
     search: {
       provider: "local",
     },

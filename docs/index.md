@@ -2,13 +2,13 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+
 hero:
   name: "Jasper's Java Blog"
   text: "学习和分享Java编程的知识和经验"
   tagline: "深入Java核心，探索编程世界"
   image:
-    src: /public/logo.png
-    alt: logo
+    src: /logo.png
   actions:
     - theme: brand
       text: 开始学习
