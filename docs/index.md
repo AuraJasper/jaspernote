@@ -15,7 +15,7 @@ hero:
       link: /outline/java核心基础.md
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/your-repo
+      link: https://github.com/jaspercliff
 
 features:
   - title: Java 基础
