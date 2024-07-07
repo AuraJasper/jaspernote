@@ -63,9 +63,9 @@ const handleClick = () => emits('nav-click', props)
             />
           </div>
         </template>
-        <h5 v-if="title" :id="formatTitle" class="title" :class="{ 'no-icon': noIcon }">
+        <h1 v-if="title" :id="formatTitle" class="title" :class="{ 'no-icon': noIcon }">
           {{ title }}
-        </h5>
+        </h1>
       </div>
       <Badge v-if="formatBadge" class="badge" :type="formatBadge.type" :text="formatBadge.text" />
       <p v-if="desc" class="desc">{{ desc }}</p>

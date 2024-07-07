@@ -15,7 +15,7 @@ hero:
       link: /outline/java核心基础.md
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/your-repo
+      link: https://github.com/jaspercliff
 
 features:
   - title: Java 基础
@@ -25,8 +25,6 @@ features:
   - title: 面试指南
     details: 为Java开发者准备的面试题和解答，助你在面试中脱颖而出。
 ---
-
---- 
 
 <div class="latest-md-files">
   <div class="card">

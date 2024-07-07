@@ -14,6 +14,24 @@ export const websites = [
                 desc: '为 Java 开发者提供全面的资源和支持，覆盖从入门到高级的各个层次,包含inside.java',
                 link: 'https://dev.java/'
             },
+            {
+                icon: 'https://spring.io/favicon-32x32.png?v=96334d577af708644f6f0495dd1c7bc8',
+                title: 'spring',
+                desc: '为构建企业级应用程序提供全面的基础架构支持的 Java 开发框架',
+                link: 'https://spring.io/'
+            },
+            {
+                icon: 'https://mybatis.org/images/mybatis-logo.png',
+                title: 'MyBatis',
+                desc: '一个优秀的持久层框架，支持定制化 SQL、存储过程以及高级映射',
+                link: 'https://mybatis.org/mybatis-3/zh_CN/index.html'
+            },
+            {
+                icon: 'https://mybatis.plus/favicon.ico',
+                title: 'MyBatis Plus',
+                desc: 'MyBatis 的增强工具包，简化 MyBatis 的使用，提供更便捷的 CRUD 操作和复杂查询支持',
+                link: 'https://mybatis.plus/'
+            },
         ]
     },
     {
@@ -53,6 +71,39 @@ export const websites = [
                 desc: '基于 Vue 3，面向设计师和开发者的组件库',
                 link: 'https://element-plus.org'
             },
+            {
+                icon: 'https://axios-http.com/assets/favicon.ico',
+                title: 'axios',
+                desc: 'Axios 是一个基于 promise 网络请求库，作用于node.js 和浏览器中',
+                link: 'https://axios-http.com/zh/docs/intro'
+            },
         ]
-    }
+    },
+    {
+        title: 'windows Utilities',
+        items: [
+            {
+                icon: 'https://res.u-tools.cn/website5/assets/favicon.png',
+                title: 'utools',
+                desc: '新一代效率工具平台\n' +
+                    '呼之即来，即用即走，打造你的个人效率助理',
+                link: 'https://www.u.tools/'
+            },
+            {
+                icon: 'https://zh.snipaste.com/favicon.ico',
+                title: 'snipaste',
+                desc: '截图\n' +
+                    '+ 贴图\n' +
+                    '* 免费. 免安装. 可个性定制.',
+                link: 'https://zh.snipaste.com/'
+            },
+            {
+                icon: 'https://geekuninstaller.com/favicon.ico',
+                title: 'geek',
+                desc: 'Basic uninstaller though powerful\n' +
+                    'and lightning fast.',
+                link: 'https://geekuninstaller.com/download'
+            },
+        ]
+    },
 ]

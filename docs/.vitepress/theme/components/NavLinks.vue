@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import slugify  from 'slugify'
 
-import MNavLink from './NavLink.vue'
+import NavLink from "./NavLink.vue";
 
 const props = defineProps({
   tag: String,
@@ -25,18 +25,22 @@ const formatTitle = computed(() => {
 </script>
 
 <template>
-  <component :is="component" v-if="title" :id="formatTitle" tabindex="-1">
-    {{ title }}
+<!--  <div :id="title.toLowerCase().replace(/\s+/g, '-')">-->
+  <component :is="component" v-if="title" id="recent" tabindex="-1">
+    <h1>{{ title }}</h1>
+    <hr>
     <a class="header-anchor" :href="`#${formatTitle}`" aria-hidden="true"></a>
   </component>
   <div class="m-nav-links">
-    <MNavLink
+    <NavLink
+        :id="title.toLowerCase().replace(/\s+/g, '-')"
         v-for="item in items"
         :key="item.link"
         :noIcon="noIcon"
         v-bind="{ ...item, ...$attrs }"
     />
   </div>
+<!--  </div>-->
 </template>
 
 <style lang="scss" scoped>
