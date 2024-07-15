@@ -12,6 +12,9 @@ export default defineConfig({
   description: "jasper learn note",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/jaspercliff/jaspernote/edit/master/docs/:path'
+    },
     nav,
     sidebar,
     socialLinks,

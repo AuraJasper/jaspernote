@@ -7,3 +7,6 @@
 
 
 
+## tree
+
+- [并查集](/dataStructure/tree/并查集.md)
