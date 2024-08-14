@@ -33,10 +33,6 @@ export const nav = [
         items: [],
     },
     {
-        text: "utils",
-        link: "/utils/index.md",
-    },
-    {
         text: "python",
         link: "/outline/python.md",
     }
