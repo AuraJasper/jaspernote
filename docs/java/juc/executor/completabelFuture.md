@@ -8,12 +8,12 @@
 
 supplyAsync:
 用于创建一个异步任务，该任务最终会产生一个结果。
-接受一个 Supplier<T> 函数式接口作为参数。
-返回一个 CompletableFuture<T> 实例，其中 T 是任务的结果类型。
+接受一个 Supplier 函数式接口作为参数。
+返回一个 CompletableFuture 实例，其中 T 是任务的结果类型。
 runAsync:
 用于创建一个异步任务，该任务不产生任何结果。
 接受一个 Runnable 作为参数。
-返回一个 CompletableFuture<Void> 实例。
+返回一个 CompletableFuture实例。
 1. **异步操作**:
     - `supplyAsync`: 异步执行一个函数并返回一个 `CompletableFuture`。
     - `runAsync`: 异步执行一个 Runnable 任务。

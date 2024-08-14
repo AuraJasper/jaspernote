@@ -1,7 +1,10 @@
 [
-  "docs/outline/dataStructure.md",
-  "docs/python/basic/object_oriented.md",
+  "docs/utils/index.md",
+  "docs/utils/neovim.md",
   "README.md",
-  "docs/index.md",
-  "docs/outline/navigation/nav.md"
+  "docs/java/juc/executor/FutureTask.md",
+  "docs/java/juc/executor/completabelFuture.md",
+  "docs/os/cpu.md",
+  "docs/outline/dataStructure.md",
+  "docs/python/basic/object_oriented.md"
 ]
