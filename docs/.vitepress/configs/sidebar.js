@@ -138,6 +138,10 @@ export const sidebar = {
                                     text: "线程池",
                                     link: "/java/juc/executor/线程池.md",
                                 },
+                                {
+                                    text: "completableFuture",
+                                    link: "/java/juc/executor/completableFuture.md",
+                                },
                             ],
                         },
                         {

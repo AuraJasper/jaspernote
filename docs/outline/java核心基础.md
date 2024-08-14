@@ -37,7 +37,8 @@ java基础教程
 #### atomic
 - [Atomic](/java/juc/atomic/atomic.md)
 #### executor
-- [FutureTask](/java/juc/executor/FutureTask.md)
+- [Future](/java/juc/executor/FutureTask.md)
+- [completableFuture](/java/juc/executor/completableFuture.md)
 - [线程池](/java/juc/executor/线程池.md)
 #### tool
 - [CountDownLatch](/java/juc/tools/CountDownLatch.md)
