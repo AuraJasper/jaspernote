@@ -15,3 +15,6 @@ todo
 - sonar 代码质量
 - SonarScanner 
 - Jenkins 调用SonarScanner
+- git merge and rebase squash
+- jmap
+- spring boot starter

@@ -106,4 +106,16 @@ export const websites = [
             },
         ]
     },
+    {
+        title: 'internet Utilities',
+        items: [
+            {
+                icon: 'https://dnschecker.org/themes/common/images/antarctica.png',
+                title: 'dns checker',
+                desc: '验证你的 DNS 记录是否已经正确传播到全球',
+                link: 'https://dnschecker.org/'
+            },
+        ]
+    },
+
 ]
