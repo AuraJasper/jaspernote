@@ -6,7 +6,7 @@ import {socialLinks} from "./configs/socialLinks.js";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "jaspernote",
-  base: "/jaspernote/",
+  base: "/",
   lastUpdated: true,
   ignoreDeadLinks: true,
   description: "jasper learn note",
