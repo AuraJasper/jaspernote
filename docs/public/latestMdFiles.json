@@ -1,10 +1,5 @@
 [
-  "docs/utils/index.md",
-  "docs/utils/neovim.md",
   "README.md",
-  "docs/java/juc/executor/FutureTask.md",
-  "docs/java/juc/executor/completabelFuture.md",
-  "docs/os/cpu.md",
-  "docs/outline/dataStructure.md",
-  "docs/python/basic/object_oriented.md"
+  "docs/java/jvm/utils/jmap.md",
+  "docs/java/jvm/utils/mat(memory analyzer tool).md"
 ]
