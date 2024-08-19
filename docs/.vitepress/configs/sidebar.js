@@ -187,7 +187,7 @@ export const sidebar = {
                     items: [
                         {text: "ioc", link: "/java/framework/spring/core/ioc.md"},
                         {text: "aop", link: "/java/framework/spring/core/aop.md"},
-                        {text: "annotation", link: "/java/framework/annotation/annotation.md"},
+                        {text: "annotation", link: "/java/framework//spring/annotation/annotation.md"},
                     ],
                 },
                 {
