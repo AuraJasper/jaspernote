@@ -19,3 +19,8 @@ todo
 - jmap
 - spring boot starter
 - guava  stopwatch 事件总线
+- logback 日志
+- spring batch
+- [Profiles :: Spring Boot](https://docs.spring.io/spring-boot/reference/features/profiles.html)
+- BeanFactory and ApplicationContext [The BeanFactory API :: Spring Framework](https://docs.spring.io/spring-framework/reference/core/beans/beanfactory.html)
+- bean 没有指定名称 默认情况下，Spring 将使用无下划线的小写驼峰命名法（camelCase）生成 Bean 的名称

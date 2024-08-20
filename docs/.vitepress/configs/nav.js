@@ -10,6 +10,7 @@ export const nav = [
             { text: "jvm", link: "/outline/jvm.md" },
             { text: "framework", link: "/outline/javaFramework.md" },
             { text: "设计模式", link: "/outline/designPattern.md" },
+            { text: "guava", link: "/outline/java/guava.md" },
         ],
     },
     {
